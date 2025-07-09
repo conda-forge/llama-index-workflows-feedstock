@@ -1,5 +1,5 @@
 {% set name = "llama-index-workflows" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/llama_index_workflows-{{ version }}.tar.gz
-  sha256: 07a68cf58040d469af8d05f56217418ae6404557f0254bff22a7481987818e3f
+  sha256: ff001d362100bfc2a3353cc5f2528a0adb52245e632191a86b4bddacde72b6af
 
 build:
   noarch: python
