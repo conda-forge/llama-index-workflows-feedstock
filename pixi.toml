@@ -7,7 +7,7 @@
 
 [project]
 name = "llama-index-workflows-feedstock"
-version = "3.52.2"  # conda-smithy version used to generate this file
+version = "3.52.3"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/llama-index-workflows-feedstock"
 authors = ["@conda-forge/llama-index-workflows"]
 channels = ["conda-forge"]
