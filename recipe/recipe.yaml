@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: llama-index-workflows
-  version: "2.15.1"
+  version: 2.16.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/llama_index_workflows-${{ version }}.tar.gz
-  sha256: 5e46dae2c683d3a9de800a4faf472b4aa915026b3f41bd36baba307b12cd3e7f
+  sha256: be4df184498c649dc1558a074794402a3bb0eb59a83e28ff5cfe9885d9787187
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - eval-type-backport >=0.2.2
-    - llama-index-instrumentation >=0.1.0
+    - llama-index-instrumentation >=0.4.3
     - pydantic >=2.11.5
     - typing_extensions >=4.6.0
 tests:
