@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: llama-index-workflows
-  version: 2.16.0
+  version: "2.16.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/llama_index_workflows-${{ version }}.tar.gz
-  sha256: be4df184498c649dc1558a074794402a3bb0eb59a83e28ff5cfe9885d9787187
+  sha256: 2f6be223af407084eef064bcbec8f60ae4dd011d9a04631887ce986258fac58a
 
 build:
   number: 0
